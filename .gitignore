@@ -29,6 +29,7 @@ TAGS
 .vagrant
 Vagrantfile.local
 /logs
+/kafka-logs
 .DS_Store
 
 config/server-*

@@ -17,7 +17,25 @@ repositories {
   repositories {
     // For license plugin.
     maven {
-      url 'https://dl.bintray.com/content/netflixoss/external-gradle-plugins/'
+      url 'https://maven.aliyun.com/repository/jcenter'
     }
+    maven {
+      url 'https://maven.aliyun.com/repository/google'
+    }
+    maven {
+      url 'https://maven.aliyun.com/repository/central'
+    }
+    maven {
+      url 'https://maven.aliyun.com/repository/gradle-plugin'
+    }
+//    maven {
+//      url 'http://172.16.1.161:30033/artifactory/repo'
+//    }
+//    maven {
+//      url 'http://172.16.1.168:8081/artifactory/repo'
+//    }
+//    maven {
+//      url 'https://dl.bintray.com/content/netflixoss/external-gradle-plugins/'
+//    }
   }
 }
